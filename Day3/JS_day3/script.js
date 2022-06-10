@@ -20,7 +20,7 @@ if (Nhi.isBeautiful) {
   console.log("Hùng không thích Nhi");
 }
 
-//Exercise
+//Exercise 1
 let findBMI = function (w, h) {
   const BMI = w / h ** 2;
 
@@ -44,3 +44,22 @@ let findBMI = function (w, h) {
 };
 
 findBMI(86, 1.78);
+
+//Exercise 2
+let findMaxOfThree = function (a, b, c) {
+  if (a > b && a > c) {
+    console.log(`${a} là số lớn nhất`);
+  } else if (b > a && b > c) {
+    console.log(`${b} là số lớn nhất`);
+  } else if (c > a && c > b) {
+    console.log(`${c} là số lớn nhất`);
+  } else if (a == b && a == c) {
+    console.log("3 số bằng nhau!");
+  } else {
+    console.log(`Có 2 số bằng nhau!`);
+  }
+};
+
+findMaxOfThree(10, 10, 10);
+
+
