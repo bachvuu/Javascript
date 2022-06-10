@@ -83,3 +83,40 @@ let calcTaxiFee = function (km) {
 };
 
 calcTaxiFee(1000);
+
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
+
+//let condition = false;
+
+//while (!condition) {
+//let agree = confirm("Linh ơi có đi chơi với mình không?");
+//if (agree) {
+//condition = true;
+//}
+//}
+
+//Chơi game đoán số
+//let luckynum = 9;
+//let condition = false;
+
+//while (!condition) {
+//let guess = prompt("Đoán số đê!");
+//if (guess == luckynum) {
+//condition == true;
+//console.log("Ơ được");
+//}
+//}
+
+//In ra các số chẵn trong khoảng từ 100
+
+for (let i = 1; i <= 100; i++) {
+  if (i % 3 && i % 5) {
+    console.log("FizzBuzz");
+  } else if (i % 5 == 0) {
+    console.log("Buzz");
+  } else {
+    console.log("Fizz");
+  }
+}
