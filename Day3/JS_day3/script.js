@@ -47,19 +47,39 @@ findBMI(86, 1.78);
 
 //Exercise 2
 let findMaxOfThree = function (a, b, c) {
-  if (a > b && a > c) {
-    console.log(`${a} là số lớn nhất`);
-  } else if (b > a && b > c) {
-    console.log(`${b} là số lớn nhất`);
-  } else if (c > a && c > b) {
-    console.log(`${c} là số lớn nhất`);
-  } else if (a == b && a == c) {
-    console.log("3 số bằng nhau!");
-  } else {
-    console.log(`Có 2 số bằng nhau!`);
-  }
+  let max = a;
+
+  if (max < b) max = b;
+  if (max < c) max = c;
+
+  console.log(`Số lớn nhất là ${max}`);
 };
 
-findMaxOfThree(10, 10, 10);
+findMaxOfThree(10, 30, 1000000);
 
+//Exercise 3
+let calcWaterBill = function (m3) {
+  let price;
 
+  if (m3 <= 10) price = 45000;
+  else if (m3 <= 20) price = (m3 - 10) * 11000 + 90000;
+  else if (m3 <= 30) price = (m3 - 20) * 13000 + 200000;
+  else price = (m3 - 30) * 15000 + 330000;
+
+  console.log(`Tổng số tiền phải trả cho ${m3} khối nước là ${price}`);
+};
+
+calcWaterBill(50);
+
+//Exercise 4
+let calcTaxiFee = function (km) {
+  let price;
+  let openPrice = 10000;
+
+  if (km <= 30) price = km * 11000;
+  else price = (km - 30) * 9500 + 330000;
+
+  console.log(`Tổng bill cho ${km} là ${price + openPrice}`);
+};
+
+calcTaxiFee(1000);
