@@ -64,3 +64,36 @@ let calcCommissions = function (totalSales) {
 calcCommissions(100000000);
 
 //Level 2
+
+//Bài 1
+function leapYear(year) {
+  return (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
+}
+//Bài 2
+
+let getDaysInMonth = function (month, year) {
+  return new Date(year, month, 0).getDate();
+};
+//Bài 3
+//Bài 4
+let calcTaxiFee = function (km) {
+  let price;
+  let openPrice = 10000;
+
+  if (km <= 30) price = km * 11000;
+  else price = (km - 30) * 9500 + 330000;
+
+  console.log(`Tổng bill cho ${km} là ${price + openPrice}`);
+};
+
+//Bài 5
+let findMaxOfThree = function (a, b, c) {
+  let max = a;
+
+  if (max < b) max = b;
+  if (max < c) max = c;
+
+  console.log(`Số lớn nhất là ${max}`);
+};
+
+//Bài 6
