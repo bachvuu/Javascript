@@ -63,6 +63,7 @@ let calcCommissions = function (totalSales) {
 
 calcCommissions(100000000);
 
+// ---------------------------------------------------------------------------
 //Level 2
 
 //Bài 1
@@ -75,6 +76,16 @@ let getDaysInMonth = function (month, year) {
   return new Date(year, month, 0).getDate();
 };
 //Bài 3
+let calcGradePoint = function (point) { 
+  if (point < 4) console.log("F");
+  else if (point <= 4 && point < 5.5) console.log("D");
+  else if (point <= 5.5 && point < 7) console.log("C");
+  else if (point <= 7 && point < 8.5) console.log("B");
+  else console.log("A");
+}
+calcGradePoint(5.8);
+
+
 //Bài 4
 let calcTaxiFee = function (km) {
   let price;
