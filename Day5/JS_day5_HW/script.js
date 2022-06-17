@@ -69,7 +69,7 @@ dog["crazy"] = function () {
 };
 
 //bài 10
-dog["isCrazy"] = false;
+dog.isCrazy = !dog.isCrazy;
 
 //bài 11
 dog.crazy();
