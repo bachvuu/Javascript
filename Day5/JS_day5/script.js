@@ -33,31 +33,31 @@
 // let key = "name";
 // Linh[key]; //Linh["name"] => "Linh"
 
-// const conChim = {
-//   color: "white",
-//   length: "10 mét",
-//   age: 25,
-//   sing: function () {
-//     console.log("Líu lo");
-//   },
-//   fly: function () {
-//     console.log("Nhanh ảo ma");
-//   },
-// };
+const conChim = {
+  color: "white",
+  length: "10 mét",
+  age: 25,
+  sing: function () {
+    console.log("Líu lo");
+  },
+  fly: function () {
+    console.log("Nhanh ảo ma");
+  },
+};
 
-// function getValue(key) {
-//   return conChim[key];
-// }
+function getValue(key) {
+  return conChim[key];
+}
 
-// console.log(getValue("color"));
-// console.log(getValue("length"));
-// console.log(getValue("age"));
-// conChim.sing();
-// conChim.fly();
+console.log(getValue("color"));
+console.log(getValue("length"));
+console.log(getValue("age"));
+conChim.sing();
+conChim.fly();
 
-// for (const key in conChim) {
-//   console.log(`${key}: ${conChim[key]}`);
-// }
+for (const key in conChim) {
+  console.log(`${key}: ${conChim[key]}`);
+}
 
 //-------------------------------------------------------
 
@@ -173,32 +173,32 @@
 
 //-----------------------------------------------------------------------------------------------------
 
-const counter = {
-  value: 0,
-  up: function () {
-    this["value"]++;
-    return this;
-  },
+// const counter = {
+//   value: 0,
+//   up: function () {
+//     this["value"]++;
+//     return this;
+//   },
 
-  down: function () {
-    this["value"]--;
-    return this;
-  },
+//   down: function () {
+//     this["value"]--;
+//     return this;
+//   },
 
-  get: function () {
-    console.log(this.value);
-    return this;
-  },
-};
+//   get: function () {
+//     console.log(this.value);
+//     return this;
+//   },
+// };
 
-counter.up();
-counter.up();
-counter.up();
-counter.up();
+// counter.up();
+// counter.up();
+// counter.up();
+// counter.up();
 
-console.log(counter.get());
+// console.log(counter.get());
 
-counter.down();
-counter.down();
+// counter.down();
+// counter.down();
 
-console.log(counter.get());
+// console.log(counter.get());
