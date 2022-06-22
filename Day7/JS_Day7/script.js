@@ -260,12 +260,12 @@
 // }
 
 
-function shuffle(arr) { 
-    for (let i = 0; i < arr.length; i++) { 
-        const randomIndex = Math.floor(Math.random() * (arr.length - i -1)) + i + 1;
-        console.log(randomIndex);
-        swap(arr, i, randomIndex);
-    }
-    return arr;
-}
+// function shuffle(arr) {
+//     for (let i = 0; i < arr.length; i++) {
+//         const randomIndex = Math.floor(Math.random() * (arr.length - i -1)) + i + 1;
+//         console.log(randomIndex);
+//         swap(arr, i, randomIndex);
+//     }
+//     return arr;
+// }
 
