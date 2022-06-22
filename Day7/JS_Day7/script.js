@@ -237,12 +237,12 @@
 // const arr2 = [3, 4, 5];
 
 
-// function mix(arr1, arr2) { 
+// function mix(arr1, arr2) {
 //     let kq = [];
 //     let length;
 //     let rest;
     
-//     if (arr1.length < arr2.length) { 
+//     if (arr1.length < arr2.length) {
 //         length = arr1.length;
 //         rest = arr2.slice(length);
 //     }
@@ -253,9 +253,19 @@
 //     }
 
 
-//     for (let i = 0; i < arr1.length; i++) { 
+//     for (let i = 0; i < arr1.length; i++) {
 //         kq.push(arr1[i], arr2[i]);
 //     }
 //     return kq.concat(rest);
 // }
+
+
+function shuffle(arr) { 
+    for (let i = 0; i < arr.length; i++) { 
+        const randomIndex = Math.floor(Math.random() * (arr.length - i -1)) + i + 1;
+        console.log(randomIndex);
+        swap(arr, i, randomIndex);
+    }
+    return arr;
+}
 
