@@ -88,6 +88,10 @@
       // 8. Đếm số từ trong đoạn văn p.bio xem có bao nhiêu từ Ba (không phân biệt chữ hoa chữ
       // thường) và thêm nội dung vào thẻ p.num-of-words bên dưới thông báo kết quả dạng Ở đoạn
       // văn trên có xx từ 'Ba'
+      let paragraph = document.querySelector(".bio").innerHTML;
+      let arr = paragraph.toLowerCase().split("ba");
+
+      console.log(arr);
 
       // 9. Thêm một hàng mới vào table (tham khảo API của HTMLTableElement)
 
