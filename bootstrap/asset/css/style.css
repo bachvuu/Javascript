@@ -126,7 +126,7 @@ table {
 
 /* header-main./start */
 .wrap-header {
-  height: 120px;
+  height: 44px;
   width: 100%;
 }
 
@@ -199,8 +199,8 @@ table {
   height: 636px;
   width: 100%;
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: top center;
+  background-size: cover;
+  background-position: center;
   background-image: url("/asset/images/hero_iphone13_avail__gnqqkzuai6um_mediumtall_2x.jpg");
 }
 
@@ -227,18 +227,6 @@ table {
   color: red;
 }
 
-h2 {
-  font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 34px;
-  line-height: 30px;
-}
-
-h1 {
-  font-size: 64px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .impro-product .col-left {
   height: 664px;
   background-image: url("/asset/images/promo_iphone13pro_avail__beadms4ldidu_medium_2x.jpg");
@@ -253,4 +241,20 @@ h1 {
   background-size: contain;
   background-position: center;
   margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 34px;
+  line-height: 30px;
+}
+
+h1 {
+  font-size: 64px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
