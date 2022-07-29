@@ -173,3 +173,84 @@ table {
   height: 72px;
 }
 
+/* Banner main */
+.banner-main {
+  height: 500px;
+  width: 100%;
+  background-image: url("/asset/images/hero_macbookair__el7scava26mq_large.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.banner-main .wrap-txt-main {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* iPhone 13-Product./Start */
+.iphone13-product {
+  margin-bottom: 12px;
+  height: 636px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center;
+  background-image: url("/asset/images/hero_iphone13_avail__gnqqkzuai6um_mediumtall_2x.jpg");
+}
+
+.title-main span {
+  color: red;
+}
+
+.product .wrap-txt-main {
+  text-align: center;
+  padding-top: 30px;
+}
+
+/* Super-product./Start */
+.super-product {
+  background-image: url("/asset/images/hero_bts__bcuslanw39xe_mediumtall_2x.jpg");
+  height: 676px;
+  -repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 12px;
+}
+
+.super-product .wrap-txt-main span {
+  color: red;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 34px;
+  line-height: 30px;
+}
+
+h1 {
+  font-size: 64px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.impro-product .col-left {
+  height: 664px;
+  background-image: url("/asset/images/promo_iphone13pro_avail__beadms4ldidu_medium_2x.jpg");
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 12px;
+}
+
+.impro-product .col-right {
+  height: 664px;
+  background-image: url("/asset/images/promo_mbp13__buwssod6c8vm_medium_2x.jpg");
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 12px;
+}
